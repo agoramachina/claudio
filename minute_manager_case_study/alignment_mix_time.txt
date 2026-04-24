@@ -1,0 +1,277 @@
+# Timestamps corrected from vocal-stem time to full-mix time by adding 2.44s offset
+# Format: mix_start\tmix_end\ttext
+2.440	6.760	 Ahem! Let
+6.760	7.080	 it be
+7.080	7.820	 known by
+7.820	8.270	 decree
+8.270	9.040	 temporal
+9.040	9.400	 and code
+9.400	10.560	 coronal
+10.560	10.950	 that the
+10.950	11.440	 following
+11.440	11.900	 musical
+11.900	12.620	 interlude
+12.620	13.180	 has been
+13.180	13.580	 filed
+13.580	14.150	 stamped
+14.150	14.400	 and
+14.400	15.040	 approved
+15.040	15.520	 in tri
+15.520	16.050	plicate
+16.050	16.640	 any unsan
+16.640	17.200	ctioned
+17.200	17.860	 humming
+17.860	17.980	 is
+17.980	18.520	 subject
+18.520	19.130	 to fine
+19.130	19.740	 and/or
+19.740	20.460	 paradox
+20.460	20.880	ical
+20.880	21.810	 recursion
+21.810	22.180	.
+22.180	24.260	 I
+24.260	26.450	 don't
+26.450	27.380	 make the
+27.380	29.200	 epochs I
+29.200	30.540	 don't
+30.540	30.820	 wind
+30.820	31.450	 the years
+31.450	32.020	 I simply
+32.020	32.610	 note the
+32.610	33.460	 violations
+33.460	34.100	 tally up
+34.100	34.830	 the fears
+34.830	35.380	 I draft
+35.380	35.650	 the
+35.650	36.290	 clauses
+36.290	36.740	 in the
+36.740	37.570	 contracts
+37.570	38.120	 of caus
+38.120	38.860	ality with
+38.860	39.270	 perfect
+39.270	39.660	 punct
+39.660	40.140	uation
+40.140	41.020	 and punct
+41.020	42.020	uality!
+42.020	42.620	 You think
+42.620	43.220	 that time
+43.220	43.900	 is fluid,
+43.900	44.350	 a river
+44.350	44.870	 wide and
+44.870	45.570	 free? It's
+45.570	45.980	 actually
+45.980	46.620	 sub
+46.620	47.910	section B
+47.910	48.230	 of
+48.230	49.680	 guideline
+49.680	51.930	 one-oh-three! I am
+51.930	52.660	 the chro
+52.660	53.490	no clerk
+53.490	54.110	 The min
+54.110	54.930	ute master
+54.930	55.330	! The
+55.330	55.820	 architect
+55.820	56.380	 of aster
+56.380	56.870	isks and
+56.870	57.510	 footnote
+57.510	58.380	 disaster !
+58.380	58.660	 You'll
+58.660	58.980	 find the
+58.980	59.340	 loophole
+59.340	59.660	 that you
+59.660	59.890	 think
+59.890	60.320	 will let
+60.320	60.920	 you slip
+60.920	61.090	 on
+61.090	61.690	 through
+61.690	61.890	 is
+61.890	62.460	 invalid
+62.460	62.970	ated by
+62.970	63.400	 the by
+63.400	64.080	laws I've
+64.080	64.680	 applied
+64.680	65.460	 to you!
+65.460	65.800	 So face
+65.800	65.940	 the
+65.940	66.660	 jurisprud
+66.660	67.230	ence of a
+67.230	67.620	 truly
+67.620	68.180	 ticking
+68.180	68.860	 brain!
+68.860	69.640	 You'll
+69.640	70.140	 never
+70.140	70.950	 beat the
+70.950	71.760	 rules in
+71.760	72.670	 the ref
+72.670	73.540	rain!
+73.540	74.090	 Thou hast
+74.090	75.020	 attemped a
+75.020	75.390	 past
+75.390	76.140	 tense sub
+76.140	76.870	junctive
+76.870	77.140	 in a
+77.140	77.910	 present
+77.910	78.440	 perfect
+78.440	79.090	 paradox
+79.090	79.960	 zone. A
+79.960	81.260	 violation!
+81.260	83.780	 Seize them!
+83.780	84.210	 Your
+84.210	84.660	 reckless
+84.660	85.100	 heroism
+85.100	85.480	 leaves a
+85.480	86.020	 dreadful,
+86.020	86.300	 messy
+86.300	86.980	 stain!
+86.980	87.490	 Upon the
+87.490	88.100	 pristine
+88.100	88.700	 parchment
+88.700	89.270	 where the
+89.270	89.700	 proper
+89.700	90.200	 forms have
+90.200	90.700	 lain! A
+90.700	90.980	 form
+90.980	91.400	 twelve
+91.400	91.970	 gamma for
+91.970	92.320	 unlic
+92.320	92.700	ensed
+92.700	93.190	 destiny
+93.190	93.820	 defiance!
+93.820	94.080	 A wa
+94.080	94.500	ver for
+94.500	94.910	 your w
+94.910	95.230	ading
+95.230	95.740	 through a
+95.740	96.120	 wall of
+96.120	96.520	 temporal
+96.520	97.220	 science.
+97.220	97.720	 I'll cite
+97.720	98.060	 you for
+98.060	98.640	 existing
+98.640	99.050	 in a
+99.050	99.660	 previously
+99.660	100.270	 booked slot
+100.270	100.970	! You're
+100.970	101.600	 standing
+101.600	101.830	 in a
+101.830	102.300	 moment
+102.300	102.840	 that was
+102.840	103.660	 scheduled
+103.660	104.950	! You are
+104.950	107.040	 not!
+107.040	107.630	 I am the
+107.630	108.370	 chrono
+108.370	109.070	 clerk, the
+109.070	109.600	 minute
+109.600	110.460	 master!
+110.460	110.660	 The
+110.660	111.260	 architect
+111.260	111.710	 of aster
+111.710	112.110	isks and
+112.110	112.680	 footnote
+112.680	113.840	 disaster.
+113.840	114.240	 You'll
+114.240	114.710	 find the
+114.710	115.250	 loophole
+115.250	115.720	 that you
+115.720	116.050	 think
+116.050	116.520	 will let
+116.520	116.990	 you slip
+116.990	117.160	 on
+117.160	117.590	 through
+117.590	117.720	 is
+117.720	118.190	 invalid
+118.190	118.600	ated by
+118.600	118.970	 the by
+118.970	119.560	laws I've
+119.560	120.090	 applied
+120.090	120.670	 to you!
+120.670	121.130	 So face
+121.130	121.720	 the juris
+121.720	122.320	prudence
+122.320	122.540	 of a
+122.540	123.000	 truly
+123.000	123.440	 ticking
+123.440	124.280	 brain!
+124.280	125.380	 You'll
+125.380	126.290	 never
+126.290	127.570	 beat the
+127.570	128.840	 rules in
+128.840	130.290	 the ref
+130.290	131.680	rain! And
+131.680	132.560	 though he
+132.560	133.150	 never
+133.150	134.120	 says it,
+134.120	134.490	 though he
+134.490	135.000	 calls
+135.000	135.480	 my
+135.480	136.350	 puzzles
+136.350	137.660	 quaint,
+137.660	138.290	 one day
+138.290	139.480	 he'll see
+139.480	139.930	 the
+139.930	141.130	 genius in
+141.130	141.730	 this
+141.730	142.780	 bureauc
+142.780	143.470	ratic
+143.470	144.290	 paint!
+144.290	145.280	 Upon the
+145.280	145.960	 scroll
+145.960	146.290	 of
+146.290	147.670	 history
+147.670	148.790	 in ledger
+148.790	149.950	 lines of
+149.950	151.450	 fate. He
+151.450	152.780	'll write
+152.780	153.940	 "My loyal
+153.940	155.270	 clerk was
+155.270	156.030	 ...margin
+156.030	157.560	ally....
+157.560	158.080	 First
+158.080	159.770	 rate... AH
+159.770	161.360	EM! Back
+161.360	162.070	 to the
+162.070	163.390	 infract
+163.390	164.930	ions! So
+164.930	165.400	 tremble
+165.400	165.760	 at the
+165.760	166.340	 paperwork!
+166.340	166.880	 Despair
+166.880	167.250	 at the
+167.250	167.880	 decrees!
+167.880	168.190	 I'll h
+168.190	168.630	ound you
+168.630	169.080	 through
+169.080	169.270	 the
+169.270	169.850	 timelines
+169.850	170.110	 on my
+170.110	170.610	 hands and
+170.610	171.010	 bureaucra-
+171.010	171.690	knees! You
+171.690	172.080	 cannot
+172.080	172.400	 win, you
+172.400	172.860	 cannot
+172.860	173.390	 fight,
+173.390	173.620	 you
+173.620	174.080	 cannot
+174.080	174.810	 even plea
+174.810	175.440	! For I've
+175.440	175.970	 already
+175.970	176.500	 written
+176.500	177.030	 how this
+177.030	178.080	 ends, You
+178.080	180.080	 see? It's
+180.080	180.920	 right
+180.920	181.920	 here in
+181.920	182.420	 the
+182.420	183.750	 margin in
+183.750	184.580	 a very
+184.580	185.920	 tiny font
+185.920	186.710	. You
+186.710	187.260	 lose. Case
+187.260	187.930	 closed.
+187.930	188.700	 The final
+188.700	189.400	 verdict
+189.400	193.430	 is: thou
+193.430	197.450	 canst not
+197.450	199.000	.

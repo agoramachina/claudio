@@ -1,0 +1,108 @@
+{
+  "file": "minute.wav",
+  "duration_seconds": 207.28,
+  "tempo_bpm": 143.55,
+  "tempo_reliable": true,
+  "estimated_key": "G minor",
+  "key_confidence": 0.633,
+  "spectral": {
+    "centroid_hz_mean": 2754.6
+  },
+  "dynamics": {
+    "rms_mean": 0.1544,
+    "rms_min": 0.0,
+    "rms_max": 0.3398
+  },
+  "sections": [
+    {
+      "index": 1,
+      "start": 0.0,
+      "end": 25.98312925170068,
+      "dynamic": "quiet",
+      "rms_rel": 0.226,
+      "key": "G major",
+      "key_conf": 0.763,
+      "centroid_hz": 2233.0
+    },
+    {
+      "index": 2,
+      "start": 25.98312925170068,
+      "end": 70.24036281179139,
+      "dynamic": "moderate",
+      "rms_rel": 0.467,
+      "key": "G minor",
+      "key_conf": 0.595,
+      "centroid_hz": 2841.0
+    },
+    {
+      "index": 3,
+      "start": 70.24036281179139,
+      "end": 80.92154195011338,
+      "dynamic": "moderate",
+      "rms_rel": 0.32,
+      "key": "G major",
+      "key_conf": 0.696,
+      "centroid_hz": 2475.0
+    },
+    {
+      "index": 4,
+      "start": 80.92154195011338,
+      "end": 104.58267573696145,
+      "dynamic": "moderate",
+      "rms_rel": 0.483,
+      "key": "G minor",
+      "key_conf": 0.663,
+      "centroid_hz": 3014.0
+    },
+    {
+      "index": 5,
+      "start": 104.58267573696145,
+      "end": 124.59827664399093,
+      "dynamic": "strong",
+      "rms_rel": 0.588,
+      "key": "G minor",
+      "key_conf": 0.623,
+      "centroid_hz": 3046.0
+    },
+    {
+      "index": 6,
+      "start": 124.59827664399093,
+      "end": 162.26104308390023,
+      "dynamic": "moderate",
+      "rms_rel": 0.434,
+      "key": "G minor",
+      "key_conf": 0.649,
+      "centroid_hz": 2793.0
+    },
+    {
+      "index": 7,
+      "start": 162.26104308390023,
+      "end": 177.67909297052154,
+      "dynamic": "strong",
+      "rms_rel": 0.662,
+      "key": "G minor",
+      "key_conf": 0.501,
+      "centroid_hz": 2870.0
+    },
+    {
+      "index": 8,
+      "start": 177.67909297052154,
+      "end": 187.7797732426304,
+      "dynamic": "moderate",
+      "rms_rel": 0.371,
+      "key": "C minor",
+      "key_conf": 0.578,
+      "centroid_hz": 3077.0
+    },
+    {
+      "index": 9,
+      "start": 187.7797732426304,
+      "end": 207.2845351473923,
+      "dynamic": "strong",
+      "rms_rel": 0.553,
+      "key": "G major",
+      "key_conf": 0.619,
+      "centroid_hz": 2460.0
+    }
+  ]
+}
