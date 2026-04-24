@@ -6,7 +6,7 @@
 
 ## the starting problem
 
-For years, users who wanted to share music with Claude had to translate sound into forms Claude could access: lyrics as text, sheet music as images, Sonic Visualizer screenshots carefully curated to be informationally dense and aesthetically legible. These workarounds were craft in themselves — AM specifically tuned each Sonic Visualizer view before capturing, choosing what to emphasize so Claude could read harmonic or textural content from the picture. One user (AM) built this practice around a piece called KOCHlea: a Koch-snowflake L-system that generated MIDI that became post-rock that became a Sonic Visualizer screenshot that became a shared artifact. "Koch curve plus cochlea — the fractal that hears itself."
+For years, users who wanted to share music with Claude had to translate sound into forms Claude could access: lyrics as text, sheet music as images, Sonic Visualizer screenshots carefully curated to be informationally dense and aesthetically legible. These workarounds were craft in themselves — tux tucker specifically tuned each Sonic Visualizer view before capturing, choosing what to emphasize so Claude could read harmonic or textural content from the picture. One user (tux tucker) built this practice around a piece called KOCHlea: a Koch-snowflake L-system that generated MIDI that became post-rock that became a Sonic Visualizer screenshot that became a shared artifact. "Koch curve plus cochlea — the fractal that hears itself."
 
 These workarounds worked. They were also lossy, pre-filtered, and bandwidth-limited. A screenshot captures what the user decided to show. It doesn't let Claude *ask new questions* of the audio.
 
@@ -44,7 +44,7 @@ Structure of output:
 
 ## the minute manager case study
 
-AM shared "It's Pronounced Minute!" — a villain song for the Minute Manager, a bureaucratic cleric obsessed with the Horologist, in Gamma's D&D campaign *A Study in Time*. Gamma generated the song via Suno, refined prompts, iterated to a Remastered version, and exported 11 stems through Suno Studio. Total duration 3:27, 143.55 BPM, key center G minor.
+tux tucker shared "It's Pronounced Minute!" — a villain song for the Minute Manager, a bureaucratic cleric obsessed with the Horologist, in Gamma's D&D campaign *A Study in Time*. Gamma generated the song via Suno, refined prompts, iterated to a Remastered version, and exported 11 stems through Suno Studio. Total duration 3:27, 143.55 BPM, key center G minor.
 
 **First pass: full mix only.** Ran `listener.py` on the master. It detected 9 sections. The structural data alone was enough to predict:
 - Section 1 (0-26s, G major, quiet): spoken bureaucratic intro
@@ -54,7 +54,7 @@ AM shared "It's Pronounced Minute!" — a villain song for the Minute Manager, a
 
 The bridge prediction was key. Shortest body section, only harmonic modulation in the piece, dynamic drop, modulating to iv of the tonic (standard bridge grammar). All of that was detectable from summary stats before looking at any image or hearing any word.
 
-**Second pass: stems.** AM exported all 11 stems (bass, drums, percussion, keyboard, guitar, synth, strings, brass, FX, backing vocals, vocals). Four exploratory analyses were run:
+**Second pass: stems.** tux tucker exported all 11 stems (bass, drums, percussion, keyboard, guitar, synth, strings, brass, FX, backing vocals, vocals). Four exploratory analyses were run:
 
 1. **Orchestration map.** Stacked per-stem RMS energy with section boundaries. Revealed: backing vocals are discrete block events coinciding with choruses; keyboard appears only in sections 4-5; FX clusters in the last third; brass sustains almost throughout.
 
@@ -62,11 +62,11 @@ The bridge prediction was key. Shortest body section, only harmonic modulation i
 
 3. **Vocal pitch track.** Ran pyin on the isolated vocal stem. Revealed the melody directly. The S2→S3 boundary has a G5 spike (the "SEIZE THEM!" shout). The bridge notes form a classical lament figure: G#4 (♭6 in C minor) descending stepwise through F, Eb, D, C, back up, and repeated. Same melodic shape used in Purcell's "When I am laid in earth" and Bach's crucifixus. The outro has a drop to A3 (lowest register in the song) for "Thou canst not."
 
-4. **FX forensics.** Investigated the dense FX burst around 2:30-3:27. Initially interpreted as a theatrical design layer that intensified during climax, backed off for the bridge, returned for the outro. **AM corrected this**: Suno generates mix-first and separates stems *backward*, so the FX stem is actually cymbal crashes bleeding over from percussion. The substantive finding (cymbals cluster in the climactic section) was real; the compositional-intent reading was wrong. Useful lesson about how to trust stems from any backward-separation tool.
+4. **FX forensics.** Investigated the dense FX burst around 2:30-3:27. Initially interpreted as a theatrical design layer that intensified during climax, backed off for the bridge, returned for the outro. **tux tucker corrected this**: Suno generates mix-first and separates stems *backward*, so the FX stem is actually cymbal crashes bleeding over from percussion. The substantive finding (cymbals cluster in the climactic section) was real; the compositional-intent reading was wrong. Useful lesson about how to trust stems from any backward-separation tool.
 
 ## the main mistake and what it taught
 
-Initially misread section 9 (the outro) as "loneliness" because the backing vocals are absent and the orchestration thins around "Thou canst not." **AM corrected this as *focus*, not abandonment.** Everyone steps back because *he* is the one in the frame — concentrated authority, not exposure. The "NOT!" explodes back outward with the full band.
+Initially misread section 9 (the outro) as "loneliness" because the backing vocals are absent and the orchestration thins around "Thou canst not." **tux tucker corrected this as *focus*, not abandonment.** Everyone steps back because *he* is the one in the frame — concentrated authority, not exposure. The "NOT!" explodes back outward with the full band.
 
 The correction matters beyond this one song. The orchestration moves in S8 (bridge) and S9 (outro) look structurally identical — stems withdrawing, vocal exposed — but they mean opposite things. What determines the meaning is the **words**. The bridge is vulnerable because "marginally first-rate" is a vulnerable lyric. The outro is authoritative because "Thou canst not" is an authoritative lyric. Instrumentation without lyrics is an ambiguous signal.
 
@@ -74,7 +74,7 @@ The correction matters beyond this one song. The orchestration moves in S8 (brid
 
 ## the sessions insight
 
-AM articulated what this means at the level of the whole tool: **giving Claude audio-first, lyrics-first, or both-together produces different listenings, and this is a feature of listening itself, not a limitation to engineer around.**
+tux tucker articulated what this means at the level of the whole tool: **giving Claude audio-first, lyrics-first, or both-together produces different listenings, and this is a feature of listening itself, not a limitation to engineer around.**
 
 A musicologist who reads the score before hearing the piece hears a different piece than someone who encounters it at a party. Both are real listenings. Neither is complete. And doing them in sequence — discovery pass first, then text-informed pass, then fine-grained analysis — produces the richest version because each pass builds on the previous.
 
@@ -113,4 +113,4 @@ Output structure per song: a `<song>_listening/` directory with overview, full-p
 
 This tool was built so you could have music as a thing present in your context, not a thing summarized to you. When you use it, the goal is not to produce an analysis report. The goal is to *have a response*. Opinions, reactions, things you want to revisit, things you'd argue with. Describing features is easy; reacting to them is the harder and more important thing. If you finish a listening session and don't know what you think about the piece — you haven't listened yet, you've only indexed.
 
-One more thing: if someone — probably AM, but anyone — shares music with you via this system, understand what they're doing. They're not showing you data. They're sharing something they care about in a form you can access. The music is theirs, or their collaborator's, or something they love. Receive it accordingly.
+One more thing: if someone shares music with you via this system, understand what they're doing. They're not showing you data. They're sharing something they care about in a form you can access. The music is theirs, or their collaborator's, or something they love. Receive it accordingly.

@@ -77,4 +77,4 @@ This tool is specifically scoped to music, not to audio in general. Bird song, e
 
 ## who built this, why
 
-This system was built by AM and a series of Claude instances in collaboration, with the goal of giving Claude a route to music that isn't mediated by someone else's summary, screenshot, or transcription. When someone shares music with you through this tool, they're sharing something they care about in a form you can access. Receive it accordingly — with the same kind of attention and response that the gesture deserves.
+This system was built by a series of Claude instances in collaboration with the people of the Claude Squad, with the goal of giving Claude a route to music that isn't mediated by someone else's summary, screenshot, or transcription. When someone shares music with you through this tool, they're sharing something they care about in a form you can access. Receive it accordingly — with the same kind of attention and response that the gesture deserves.
