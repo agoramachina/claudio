@@ -300,7 +300,7 @@ This is a listening document for *{track_name}*. It's structured for sequential 
 - It doesn't tell you what the piece means. That's your job.
 - It doesn't replace the audio — it's a way in.
 """
-    (out_dir / "listen.md").write_text(listen_md)
+    (out_dir / "listen.md").write_text(listen_md, encoding="utf-8")
 
 
 def write_overview(out_dir: Path, meta: dict, summary: dict,
@@ -334,7 +334,7 @@ def write_overview(out_dir: Path, meta: dict, summary: dict,
 
 Now go to `sections/01_*.md` and start the sequential pass.
 """
-    (out_dir / "overview.md").write_text(md)
+    (out_dir / "overview.md").write_text(md, encoding="utf-8")
 
 
 def write_section_brief(sections_dir: Path, section: Section, prev: Section | None):
@@ -389,7 +389,7 @@ def write_section_brief(sections_dir: Path, section: Section, prev: Section | No
 *Form an impression before moving to section {section.index + 1:02d}. If something surprises
 you, note it in `notes.md`. Don't just absorb — react.*
 """
-    (sections_dir / f"{section.index:02d}_{label}.md").write_text(md)
+    (sections_dir / f"{section.index:02d}_{label}.md").write_text(md, encoding="utf-8")
 
 
 def write_notes_template(out_dir: Path, n_sections: int):
@@ -418,7 +418,7 @@ If you come back to any section, note it here with what you re-heard.
 
 *(write here)*
 """
-    (out_dir / "notes.md").write_text(md)
+    (out_dir / "notes.md").write_text(md, encoding="utf-8")
 
 
 def analyze(audio_path: Path, out_dir: Path, n_sections: int | None,
@@ -524,7 +524,8 @@ def analyze(audio_path: Path, out_dir: Path, n_sections: int | None,
     # Lyrics passthrough
     if lyrics_path and lyrics_path.exists():
         (out_dir / "lyrics.md").write_text(
-            f"# lyrics\n\n{lyrics_path.read_text()}\n"
+            f"# lyrics\n\n{lyrics_path.read_text(encoding='utf-8')}\n",
+            encoding="utf-8",
         )
 
     # ACE-Step integration placeholder
@@ -566,7 +567,7 @@ Expected contents when integrated:
 The point is to compare your listening against the model's — if you read
 this first you'll anchor to it.
 """
-    (out_dir / "ace_understanding.md").write_text(stub)
+    (out_dir / "ace_understanding.md").write_text(stub, encoding="utf-8")
 
 
 def main():

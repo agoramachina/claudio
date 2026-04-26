@@ -1,0 +1,36 @@
+{
+  "file": "daisy_bell.mp3",
+  "duration_seconds": 38.522,
+  "tempo_bpm": 172.27,
+  "tempo_reliable": true,
+  "estimated_key": "B major",
+  "key_confidence": 0.844,
+  "spectral": {
+    "centroid_hz_mean": 1052.4
+  },
+  "dynamics": {
+    "rms_mean": 0.3337,
+    "rms_min": 0.0,
+    "rms_max": 0.4877
+  },
+  "sections": [
+    {
+      "index": 1,
+      "start": 0.0,
+      "end": 4.156371882086168,
+      "dynamic": "moderate",
+      "key": "B major",
+      "key_conf": 0.7298572112686432,
+      "n_notes": 7
+    },
+    {
+      "index": 2,
+      "start": 4.156371882086168,
+      "end": 38.54512471655329,
+      "dynamic": "strong",
+      "key": "B major",
+      "key_conf": 0.8569462575041067,
+      "n_notes": 84
+    }
+  ]
+}
